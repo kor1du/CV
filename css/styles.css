@@ -1,0 +1,21 @@
+:root {
+  --background-color: #9e9e9e;
+  --blue-color: #1e88e5;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+}
+
+hr {
+  border: none;
+  background-color: var(--background-color);
+  border-top: 6.4px dotted gray;
+  width: 50px;
+}
+
+h1,
+h3 {
+  color: var(--blue-color);
+}
